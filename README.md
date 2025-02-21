@@ -14,7 +14,7 @@ Only works on windows:
 
 Disable your antivirus due to false virus alert
 
-Run CDTDRAT.exe
+Run CDTCreator.exe
 
 --------------------
 
