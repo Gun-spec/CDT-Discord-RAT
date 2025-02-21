@@ -94,8 +94,3 @@ Run CDTCreator.exe
 <a href="https://github.com/Gun-spec/CDT-malware#ss">                         `.cmd <command>`</a> - execute shell command on victim's PC and send back the output<br />
 <a href="https://github.com/Gun-spec/CDT-malware#implode">                    `.implode`</a> - remove CDT from target PC and clean the "evidence"<br />
 <a href="https://github.com/Gun-spec/CDT-malware#clear">                      `.clear`</a> - clear messages from file-related channel<br /
-
-### ToDo
-
-List of features that should appear in following release
-- [ ] grab sessions from popular applications (Steam/Minecraft/Metamask/Exodus/Roblox)
