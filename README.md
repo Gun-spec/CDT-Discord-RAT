@@ -1,4 +1,4 @@
-<span align='center'>
+<span align='left'>
 
 # `CDT DISCORD RAT`
 
