@@ -8,6 +8,14 @@
 > Information and code provided on this repository are for educational purposes only. The creator is no way responsible for any direct or indirect damage caused due to the misusage of the information. Everything you do, you are doing at your own risk and responsibility.
 --------------------
 
+# Preparation<br />
+
+Only works on windows:
+Disable your antivirus due to false virus alert
+Run CDTDRAT.exe
+
+--------------------
+
 # Features
 ### CDT malware can do plenty of things, like:
 - handle multiple PCs (not only one, like in most of the cases)
@@ -45,14 +53,6 @@
 - *Anti-VM* (CDT won't run on Virtual Machines, f.ex.: VirtualBox, VMWare)
 - run *shell* commands (CMD/Powershell)
 - ***Debug Mode*** for easier testing and `contribution`
-
---------------------
-
-# Preparation<br />
-
-Only works on windows:
-Disable your antivirus due to false virus alert
-Run CDTDRAT.exe
 
 --------------------
 
